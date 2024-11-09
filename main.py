@@ -5,7 +5,7 @@ r"""
 |_|\_\\___| \_, | \_/\_/ \___/|_|  \__,_| |_|  |_|\__,_|/__/ \__|\___||_|
             |__/
 """
-# Coded by : https://github.com/Dynamical-Code/
+# Coded by : https://github.com/mod-hamza/
 # Date : 6/9/2024
 
 from termcolor import colored
@@ -32,7 +32,7 @@ def main():
     try:
         clean_duplicate_keywords()
         clean_duplicate_channels()
-        
+
         config = load_config('config.json')
         print(colored(config["YouTube ASCII"], "red"))
         print(colored(config["Keyword Master"], "green"))
