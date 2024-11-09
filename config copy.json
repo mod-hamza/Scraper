@@ -1,0 +1,32 @@
+{
+    "Firefox Profile" : "",
+    "Geckodriver Path" : "assets\\geckodriver.exe",
+
+    "Channel_DB_host" : "",
+    "Channel_DB_name" : "",
+    "Channel_DB_user" : "",
+    "Channel_DB_password" : "",
+
+    "Keyword_DB_host" : "",
+    "Keyword_DB_name" : "",
+    "Keyword_DB_user" : "",
+    "Keyword_DB_password" : "",
+
+    "YouTube ASCII" : " /.#########################.\\\n|############*################|\n|############. :+#############|\n|############.    .*##########|\n|############. :+#############|\n|############*################|\n \\*#########################*/",
+    "Keyword Master" : " _  __                                 _   __  __            _\n| |/ / ___  _  _ __ __ __ ___  _ _  __| | |  \\/  | __ _  ___| |_  ___  _ _\n| ' < / -_)| || |\\ V  V // _ \\| '_|/ _` | | |\\/| |/ _` |(_-<|  _|/ -_)| '_|\n|_|\\_\\\\___| \\_, | \\_/\\_/ \\___/|_|  \\__,_| |_|  |_|\\__,_|/__/ \\__|\\___||_|\n            |__/",
+
+    "_comment1" : "If sub count is lower than this, it will be stored in database (int) [Leaving 0 stores no channels in database]",
+    "Max_Subscriber_Count" : 5000,
+
+    "_comment2" : "Videos uploaded these many days back, will be scraped (float) [Try to keep <= 60]",
+    "Days" : 0.5,
+
+    "_comment3" : "While searching keywords, these many videos will be scraped (int) [Try to keep it <= 3]",
+    "Max_Videos_Scraped" : 3,
+
+    "_comment4" : "Timeout in seconds for as to how long to wait for element to load (int). [Try to keep >=30 & <=60]",
+    "Timeout" : 30,
+
+    "_comment5" : "Videos under this many views will not be scraped (int)",
+    "Views_threshold" : 20
+}
